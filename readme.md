@@ -10,12 +10,12 @@ The app also uses Redis for handling JWT authentication, in order to restrict ac
 
 
 #### _Backend_
-**helpers.ts** - this file contains a few of the helper functions I used to handle image uploads for the A/B test designs.
-**projects.ts** - an api route for creating a project.
+**helpers.ts** - this file contains a few of the helper functions I used to handle image uploads for the A/B test designs.<br/>
+**projects.ts** - an api route for creating a project.<br/>
 **schemas.ts** - shows the Design schema for mongoose/MongoDB.
 
 
 #### _Frontend_
-**DesignCard.tsx** - a react card component using MUI.
-**PrivateRoute.tsx** - a react-router HOC, serving as a gateway between authenticated and un-authenticated users.
-**createAbTestReducer.ts** - Redux reducer for the entire A/B test creation process.
+**DesignCard.tsx** - a react card component using MUI.<br/>
+**PrivateRoute.tsx** - a react-router HOC, serving as a gateway between authenticated and un-authenticated users.<br/>
+**createAbTestReducer.ts** - Redux reducer for the entire A/B test creation process.<br/>
